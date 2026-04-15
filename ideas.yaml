@@ -1,0 +1,25 @@
+- title: "Synthetic Graph Data Generator"
+  domain: "Graphs"
+  vibe_score: 5
+  impact_score: 4
+  effort: "Small"
+  growth_score: 5.4
+  status: "Backlog"
+  data_strategy: "Self-Generated"
+  atomic_tasks:
+    - "Setup: Create a script using NetworkX to generate Barabási-Albert graphs."
+    - "Task: Add node attributes (e.g., 'age', 'risk_score') based on node degree."
+    - "Task: Export to PyTorch Geometric (PyG) format."
+
+- title: "Constraint Satisfaction for Home Office Layout"
+  domain: "Optimization"
+  vibe_score: 4
+  impact_score: 3
+  effort: "Medium"
+  growth_score: 1.2
+  status: "Backlog"
+  data_strategy: "Manual/Small-Scale"
+  atomic_tasks:
+    - "Task: Define variables (Desk, Shelf, Reading Chair) and room constraints."
+    - "Task: Implement a simple Genetic Algorithm to minimize 'clutter' score."
+    - "Task: Visualize the best-performing layout in a Jupyter Notebook."
