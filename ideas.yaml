@@ -23,3 +23,98 @@
     - "Task: Define variables (Desk, Shelf, Reading Chair) and room constraints."
     - "Task: Implement a simple Genetic Algorithm to minimize 'clutter' score."
     - "Task: Visualize the best-performing layout in a Jupyter Notebook."
+
+- title: "Synthetic Time Series Data for Anomaly Detection"
+  domain: "Time Series"
+  vibe_score: 5
+  impact_score: 4
+  effort: "Medium"
+  growth_score: 4.8
+  status: "Backlog"
+  data_strategy: "Self-Generated"
+  atomic_tasks:
+    - "Task: Create a script to generate synthetic time series data with seasonal patterns and noise."
+    - "Task: Introduce anomalies (e.g., spikes, drops) at random intervals."
+    - "Task: Export the dataset in CSV format for use in anomaly detection models." 
+
+- title: "Synthetic Image Dataset for Object Detection"
+  domain: "Computer Vision"
+  vibe_score: 5
+  impact_score: 5
+  effort: "Large"
+  growth_score: 6.0
+  status: "Backlog"
+  data_strategy: "Self-Generated"
+  atomic_tasks:
+    - "Task: Use Blender to create a 3D scene with various objects (e.g., cars, pedestrians)."
+    - "Task: Render images from multiple angles and lighting conditions."
+    - "Task: Annotate images with bounding boxes and export in COCO format."  
+
+- title: "Synthetic Text Data for Sentiment Analysis"
+  domain: "NLP"
+  vibe_score: 4
+  impact_score: 4
+  effort: "Medium"
+  growth_score: 4.0
+  status: "Backlog"
+  data_strategy: "Self-Generated"
+  atomic_tasks:
+    - "Task: Create a script to generate synthetic sentences with positive, negative, and neutral sentiments."
+    - "Task: Use a predefined vocabulary and sentence templates to ensure diversity."
+    - "Task: Export the dataset in CSV format with 'text' and 'label' columns."
+
+- title: "Synthetic Tabular Data for Regression"
+  domain: "Tabular Data"
+  vibe_score: 4
+  impact_score: 3
+  effort: "Small"
+  growth_score: 3.0
+  status: "Backlog"
+  data_strategy: "Self-Generated"
+  atomic_tasks:
+    - "Task: Create a script to generate synthetic tabular data with features (e.g., 'age', 'income') and a target variable (e.g., 'house_price')."
+    - "Task: Introduce noise and outliers to make the dataset more realistic."
+    - "Task: Export the dataset in CSV format for use in regression models."
+
+- title: "Knowledge Graph for Personal Reading"
+  domain: "Graphs / NLP"
+  vibe_score: 4
+  impact_score: 4
+  effort: "Medium"
+  growth_score: 1.33
+  status: "Backlog"
+  data_strategy: "Manual / Open Library API"
+  atomic_tasks:
+    - "Task: Create a CSV/YAML of current books and key technical topics."
+    - "Task: Use a lightweight NLP library (Spacy) to extract entities from book descriptions."
+    - "Task: Build a NetworkX graph linking Books -> Topics -> Authors."
+    - "Task: Implement a simple 'Centrality' measure to find the most influential topics in your reading."
+
+- title: "Coastal Aesthetic Neural Scorer"
+  domain: "Deep Learning / Computer Vision"
+  vibe_score: 5
+  impact_score: 5
+  effort: "Large"
+  growth_score: 1.0
+  status: "Backlog"
+  data_strategy: "Scraped (Unsplash API)"
+  atomic_tasks:
+    - "Task: Use the Unsplash API to download images tagged 'Coastal Portrait' and 'Urban Portrait'."
+    - "Task: Pre-process images (resize/normalize) for a Deep Learning model."
+    - "Task: Fine-tune a pre-trained ResNet or MobileNet for binary classification."
+    - "Task: Use Grad-CAM to visualize which features (e.g., ocean, sand, lighting) contribute to the 'Coastal' aesthetic."
+
+- title: "Optimal Gear Selection (Bayesian Context)"
+  domain: "Deep Learning / Optimization"
+  vibe_score: 4
+  impact_score: 3
+  effort: "Medium"
+  growth_score: 1.2
+  status: "Backlog"
+  data_strategy: "Synthetic"
+  atomic_tasks:
+    - "Task: Define a multi-objective cost function (Weighting: Price vs. Battery vs. Sweat Resistance)."
+    - "Task: Set up a Bayesian Optimization loop using BoTorch or GPyOpt."
+    - "Task: Generate synthetic product data with varying performance metrics."
+    - "Task: Execute the optimizer to find the 'Pareto Frontier' of earphone choices."
+
